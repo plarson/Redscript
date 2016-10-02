@@ -1,6 +1,6 @@
 # Redscript
 
-Redis script manager for Redbird.
+Redis script manager for ["Redbird"](https://github.com/vapor/redbird).
 
 > Easily load scripts into Redis' script cache 
 
