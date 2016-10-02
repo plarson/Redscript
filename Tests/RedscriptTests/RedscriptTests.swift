@@ -1,6 +1,6 @@
 import XCTest
 import Redbird
-import Redscript
+@testable import Redscript
 import Foundation
 
 let source = "return KEYS[1]"
