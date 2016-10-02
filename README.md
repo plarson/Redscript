@@ -18,10 +18,6 @@ Based on ["Scripty"](https://github.com/TheDeveloper/scripty)
 .Package(url: "https://github.com/plarson/redscript", majorVersion: 0, minor: 1)
 ```
 
-:blue_heart: Code of Conduct
-------------
-Please note that this project is released with a [Contributor Code of Conduct](./CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
-
 :gift_heart: Contributing
 ------------
 Please create an issue with a description of your problem or open a pull request with a fix.
