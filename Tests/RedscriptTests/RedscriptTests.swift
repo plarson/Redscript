@@ -34,7 +34,7 @@ class RedscriptTests: XCTestCase {
         XCTAssertEqual(result, "hi")
     }
 
-    func testRecache() {
+    func testFlush() {
         let script = try! self.redscript.load(source: source, name: "blank")
         _ = try! self.redis.command("FLUSH")
         let result = try! self.redscript.run(script: script, params: [String(1), "hi"]).toString()
